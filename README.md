@@ -1,7 +1,5 @@
 # Asset_management_system_project
 
-# Asset_Management_System
-
 A Buisness central extension developed using AL to manage company assets.
 
 ## Purpose of the project:
