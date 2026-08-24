@@ -65,19 +65,21 @@ Many organizations use spreadsheets to track assets, making it difficult to moni
 
 ### Asset MasterList 
 
-<img width="1366" height="623" alt="image" src="https://github.com/user-attachments/assets/24db8902-0555-467a-848b-2dbb450ea49c" />
+<img width="1351" height="627" alt="image" src="https://github.com/user-attachments/assets/411f577f-d683-431b-b1f6-3df89d49d428" />
+
 
 ### Asset Master Card
 
-<img width="1366" height="685" alt="image" src="https://github.com/user-attachments/assets/cc9d2265-0523-4aad-ac7f-3cb7f9bdbc5b" />
+<img width="1351" height="633" alt="image" src="https://github.com/user-attachments/assets/7cee132d-b37d-4ac4-8f59-de84b34ac7cf" />
 
 
 ### Asset Assignemnt List
 
-<img width="1366" height="652" alt="image" src="https://github.com/user-attachments/assets/4f07b4db-53e4-4131-a385-74fe75009b6e" />
+
 
 ### Asset Assignement card
-<img width="1354" height="608" alt="image" src="https://github.com/user-attachments/assets/0b4a50d8-8448-4597-813c-49cec7a3951b" />
+
+<img width="1365" height="588" alt="image" src="https://github.com/user-attachments/assets/1697311b-2955-4c3b-95a1-6a14cf523f36" />
 
 
 ### Asset Return List
