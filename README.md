@@ -1,5 +1,4 @@
-
-content = """# 🏢 Asset Management System
+# 🏢 Asset Management System
 
 ## Microsoft Dynamics 365 Business Central
 
@@ -72,6 +71,9 @@ The system allows users to register assets in Business Central.
 🆔 Asset ID Generated
         ↓
 📋 Asset Master Created
+
+---
+
 3️⃣ 👤 Asset Assignment
 
 Assets can be assigned to employees directly from the Asset Management solution.
@@ -111,7 +113,6 @@ Example statuses include:
 🔴 Replaced
 ⚪ Returned
 
----
 
 
 6️⃣ 🔧 Asset Maintenance Management
@@ -128,7 +129,6 @@ Maintenance information can include:
 📌 Maintenance Status
 💬 Remarks
 
----
 
 
 7️⃣ ♻️ Asset Replacement
@@ -145,7 +145,8 @@ The system supports replacement of assets when an existing asset needs to be rep
         ↓
 🆕 Register Replacement Asset
 
----
+
+
 
 
 8️⃣ 🕒 Asset History
@@ -161,7 +162,7 @@ The history can track:
 📌 Status Changes
 📝 Other Asset Activities
 
----
+
 
 
 9️⃣ 📑 Asset Management Reports
@@ -175,7 +176,7 @@ Custom reports can support:
 🕒 Asset History Reports
 📈 Asset Management Analysis
 
----
+
 
 ⚡ ## Asset Master Actions
 
@@ -193,7 +194,7 @@ The Asset Master Card provides direct actions for common asset management activi
        ↓
 📑 Asset Management Report
 
----
+
 
 🛠️ ## Technical Implementation
 
@@ -212,7 +213,7 @@ The solution is developed using:
 🎨 Report Layouts
 🔗 Table Relations
 
----
+
 
 📁  ##Project Structure
 
@@ -251,7 +252,7 @@ AssetManagement/
 └── 📂 .vscode/
     └── launch.json
 
----
+
 
 🔄 Main Business Process
 
