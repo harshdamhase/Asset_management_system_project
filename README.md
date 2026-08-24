@@ -294,21 +294,21 @@ AssetManagement/
 # 🔄 Main Business Process
 
 ```text
-📦 Asset Registration
+  Asset Registration
         ↓
-📋 Asset Master
+  Asset Master
         ↓
-👤 Asset Assignment
+  Asset Assignment
         ↓
-📊 Asset Status Tracking
+  Asset Status Tracking
+     ↓
+  Maintenance / ↩️ Return
         ↓
-🔧 Maintenance / ↩️ Return
+  Replacement (if required)
         ↓
-♻️ Replacement (if required)
+  Asset History
         ↓
-🕒 Asset History
-        ↓
-📑 Asset Reports
+  Asset Reports
 ```
 
 ---
@@ -319,29 +319,25 @@ AssetManagement/
 
 All important asset information is maintained in one centralized Business Central solution.
 
-### 👤 Better Accountability
+###  Better Accountability
 
 Employee-wise asset assignment provides clear ownership and responsibility.
 
-### 📈 Improved Asset Utilization
+###  Improved Asset Utilization
 
 Users can easily identify available, assigned, maintained, returned, and replaced assets.
 
-### 🔧 Better Maintenance Visibility
+###  Better Maintenance Visibility
 
 Maintenance activities can be tracked against individual assets.
 
-### 🔍 Complete Lifecycle Visibility
+###  Complete Lifecycle Visibility
 
 The solution provides visibility from asset registration through assignment, maintenance, return, and replacement.
 
-### ⚡ Reduced Manual Work
+###  Reduced Manual Work
 
 Centralized records and predefined actions reduce dependency on manual asset tracking.
-
-### 📊 Better Decision-Making
-
-Reports and centralized asset information provide management with better information for decision-making.
 
 ---
 
@@ -369,18 +365,11 @@ The solution is designed to be maintainable, scalable, and extendable for future
 
 Possible future enhancements include:
 
-- 📱 Mobile Asset Management
-- 📷 Barcode / QR Code Scanning
-- 💰 Asset Depreciation Integration
-- 📧 Automated Warranty Expiry Notifications
 - 🔔 Automated Maintenance Reminders
 - 📊 Power BI Asset Dashboard
 - ✅ Asset Approval Workflows
 - 📎 Document Attachments
-- 🛒 Purchase Integration
-- 📝 Advanced Audit Trail
 - 📧 Automated Email Notifications
-- 👥 Employee Self-Service Asset Portal
 
 ---
 
@@ -410,15 +399,15 @@ The extension can be developed and tested in a **Microsoft Dynamics 365 Business
 
 | Technology | Purpose |
 |---|---|
-| 💼 Microsoft Dynamics 365 Business Central | ERP Platform |
-| 💻 AL Language | Custom Development |
-| 🧑‍💻 Visual Studio Code | Development Environment |
-| 🗃️ Business Central Tables | Data Management |
-| 📄 Business Central Pages | User Interface |
-| ⚙️ Codeunits | Business Logic |
-| 🔢 Enums | Status & Activity Management |
-| 📑 Reports | Asset Reporting |
-| ☁️ Business Central Sandbox | Development & Testing |
+|  Microsoft Dynamics 365 Business Central | ERP Platform |
+|  AL Language | Custom Development |
+|  Visual Studio Code | Development Environment |
+|  Business Central Tables | Data Management |
+|  Business Central Pages | User Interface |
+|  Codeunits | Business Logic |
+|  Enums | Status & Activity Management |
+|  Reports | Asset Reporting |
+|  Business Central Sandbox | Development & Testing |
 
 ---
 
@@ -428,20 +417,17 @@ The Asset Management System provides a centralized and structured approach to ma
 
 ### Key Outcomes
 
-- 🔍 **Improved Asset Visibility**
-- 👤 **Better Accountability**
-- 📈 **Improved Asset Utilization**
-- 🔧 **Better Maintenance Management**
-- 🔄 **Complete Asset Lifecycle Tracking**
-- 📊 **Improved Reporting & Decision-Making**
+-  **Improved Asset Visibility**
+-  **Better Accountability**
+-  **Better Maintenance Management**
+-  **Complete Asset Lifecycle Tracking**
+-  **Improved Reporting & Decision-Making**
 
 The solution also provides a strong foundation for future integration with:
 
 - 📊 Power BI
 - ⚡ Power Automate
-- 📱 Mobile Applications
-- 📷 Barcode / QR Scanning
-- 🔗 Other Business Central Modules
+
 
 ---
 
@@ -451,14 +437,8 @@ The solution also provides a strong foundation for future integration with:
 
 ---
 
-# 🏷️ Keywords
+# Developed By
 
-`Dynamics 365 Business Central`  
-`Asset Management`  
-`AL Development`  
-`Microsoft Dynamics 365`  
-`Business Central Extension`  
-`ERP`  
-`Asset Lifecycle Management`  
-`Visual Studio Code`  
-`Business Central Developer`
+```
+Harshda Mhase
+```
