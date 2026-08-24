@@ -1,113 +1,496 @@
-# Asset_management_system_project
+🏢 Asset Management System
 
-A Buisness central extension developed using AL to manage company assets.
+Microsoft Dynamics 365 Business Central
 
-## Purpose of the project:
-Many organizations use spreadsheets to track assets, making it difficult to monitor asset allocation, maintenance schedules, and asset history. This project automates these processes within Business Central, improving accuracy and providing complete asset traceability.
+📌 Project Overview
 
-## Buisness problem
+This project is a custom Asset Management System developed in Microsoft Dynamics 365 Business Central using AL Language.
 
--Manual Asset tracking
--Difficulty indetifying who has which asset
--No maintaince history
--No centralized asset information
--Time consuming reporting
+The solution is designed to help organizations manage their assets throughout the complete lifecycle — from registration and assignment to maintenance, return, replacement, history, and reporting.
 
-## Solution
-**This extension provides:**
+The main objective is to provide a centralized and structured solution for better asset visibility, accountability, utilization, and lifecycle management.
 
--Asset Master
--Asset Assignment
--Asset Register
--Asset Return
--Asset Replacement
--Asset Maintaince
--Asset History
--Employee Asset Report
--PowerBI dashboard
+🎯 Project Objectives
 
-## Features
+The main objectives of the Asset Management System are:
 
--Automatic Asset ID generation using No-series.
--Employee Asset assignment
--Asset avaiablity tracking
--maintaince scheduling
--Asset replacement history
-- RDLC reports
-- Power BI integration
+📋 Maintain a centralized Asset Master.
 
+👤 Track assets assigned to employees.
 
-## Technologies
+🔄 Manage asset returns and reassignment.
 
--Buisness central 365
--AL
--PowerBI
--RDLC
--VS Code
--Git Hub
+📊 Track the current status of assets.
 
-## Project Sturcture
- 
-1.Tables 
-2.Pagee
-3.Codeunits
-4.Enums
-5.Reports
-6.API Page
+🔧 Manage asset maintenance activities.
 
-## Installation
-1. Download the repository.
-2. Open in Vscode.
-3. Download Symbols.
-4. publish to local onpremises buisness central.
+♻️ Manage asset replacement.
 
-## Screenshot
+🕒 Maintain asset activity and history.
 
-### Asset MasterList 
+📑 Generate asset management reports.
 
-<img width="1351" height="627" alt="image" src="https://github.com/user-attachments/assets/411f577f-d683-431b-b1f6-3df89d49d428" />
+🔍 Improve asset visibility and traceability.
 
+⚡ Reduce manual asset tracking.
 
-### Asset Master Card
+📈 Support better management decisions.
 
-<img width="1351" height="633" alt="image" src="https://github.com/user-attachments/assets/7cee132d-b37d-4ac4-8f59-de84b34ac7cf" />
+🚀 Key Features
 
+1️⃣ Asset Master Management
 
-### Asset Assignemnt List
+The Asset Master acts as the central record for each organizational asset.
 
+It stores important information such as:
 
+🆔 Asset ID
 
-### Asset Assignement card
+📦 Item No.
 
-<img width="1365" height="588" alt="image" src="https://github.com/user-attachments/assets/1697311b-2955-4c3b-95a1-6a14cf523f36" />
+🏷️ Asset Type
 
+📝 Description
 
-### Asset Return List
+🔢 Serial No.
 
-<img width="1358" height="643" alt="image" src="https://github.com/user-attachments/assets/25771dd6-591f-430e-9058-44c225167e55" />
+📅 Purchase Date
 
-### Asset Return Card
+💰 Purchase Cost
 
-<img width="1364" height="576" alt="image" src="https://github.com/user-attachments/assets/6710010a-c856-4766-ae2e-a03037b84518" />
+🛡️ Warranty Expiry Date
 
-### Asset Replace List
+📌 Asset Status
 
-<img width="1366" height="715" alt="image" src="https://github.com/user-attachments/assets/b4ea0116-249c-4a42-bcbe-faaf9ee0296c" />
+👤 Employee No.
 
-### Asset Replace card
+👤 Employee Name
 
-<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/2a678b67-d222-4b73-b25c-e181cbb61a4d" />
+The Asset Master provides a single view of the asset and its current information.
 
-### Asset Maintaince List
+2️⃣ Asset Registration
 
-<img width="1350" height="636" alt="image" src="https://github.com/user-attachments/assets/adcb2342-2a27-406f-9e40-af358330f592" />
+The system allows users to register assets in Business Central.
 
-### Asset Maintaince Card
+During registration, the asset can be linked with relevant item information and assigned a unique Asset ID.
 
-<img width="1366" height="586" alt="image" src="https://github.com/user-attachments/assets/1c56840f-be0c-4cb6-b7de-86e22a951a28" />
+Process
 
-### Asset History List
-<img width="1346" height="669" alt="image" src="https://github.com/user-attachments/assets/d8028d56-7cfe-4106-971c-074bd9a3e05c" />
+📦 Asset Information
+        ↓
+📝 Asset Registration
+        ↓
+🆔 Asset ID Generated
+        ↓
+📋 Asset Master Created
 
-### Asset History Card
-<img width="1366" height="633" alt="image" src="https://github.com/user-attachments/assets/46f226cf-92f7-495d-bcae-71af566e081e" />
+3️⃣ 👤 Asset Assignment
+
+Assets can be assigned to employees directly from the Asset Management solution.
+
+The system maintains information such as:
+
+Employee No.
+
+Employee Name
+
+Asset ID
+
+Assignment Date
+
+Asset Status
+
+Assignment History
+
+This improves accountability and makes it easy to identify the employee responsible for an asset.
+
+4️⃣ 🔄 Asset Return & Reassignment
+
+When an employee returns an asset, the system records the return and updates the asset status.
+
+The asset can then become available for reassignment.
+
+Process
+
+👤 Assigned Asset
+        ↓
+↩️ Return Asset
+        ↓
+📌 Update Asset Status
+        ↓
+🟢 Available
+        ↓
+👤 Reassign Asset
+
+5️⃣ 📊 Asset Status Tracking
+
+The system tracks the current status of each asset.
+
+Example statuses include:
+
+🟢 Available
+
+🔵 Assigned
+
+🟠 Under Maintenance
+
+🔴 Replaced
+
+⚪ Returned
+
+This provides users with clear visibility into the current state of organizational assets.
+
+6️⃣ 🔧 Asset Maintenance Management
+
+Maintenance activities can be recorded against individual assets.
+
+Maintenance information can include:
+
+🆔 Asset ID
+
+📅 Maintenance Date
+
+🔧 Maintenance Type
+
+📝 Description
+
+⚙️ Asset Condition
+
+📌 Maintenance Status
+
+💬 Remarks
+
+This helps organizations maintain assets properly and improve asset reliability.
+
+7️⃣ ♻️ Asset Replacement
+
+The system supports replacement of assets when an existing asset needs to be replaced.
+
+The replacement process helps maintain the relationship between the old and replacement assets and improves lifecycle visibility.
+
+Process
+
+📦 Existing Asset
+        ↓
+⚠️ Replacement Required
+        ↓
+♻️ Create Replacement Record
+        ↓
+📌 Update Asset Status
+        ↓
+🆕 Register Replacement Asset
+
+8️⃣ 🕒 Asset History
+
+Asset-related activities can be maintained as historical records.
+
+The history can track:
+
+👤 Assignment
+
+↩️ Return
+
+🔧 Maintenance
+
+♻️ Replacement
+
+📌 Status Changes
+
+📝 Other Asset Activities
+
+This provides better traceability and audit visibility.
+
+9️⃣ 📑 Asset Management Reports
+
+Custom reports provide management with useful information about organizational assets.
+
+Reports can support:
+
+👤 Employee-wise Asset Reports
+
+📊 Asset Status Reports
+
+📋 Asset Assignment Reports
+
+🔧 Maintenance Reports
+
+🕒 Asset History Reports
+
+📈 Asset Management Analysis
+
+⚡ Asset Master Actions
+
+The Asset Master Card provides direct actions for common asset management activities:
+
+📋 Register Assets
+       ↓
+👤 Assign Asset
+       ↓
+↩️ Return Asset
+       ↓
+♻️ Replace Asset
+       ↓
+🔧 Maintain Assets
+       ↓
+📑 Asset Management Report
+
+These actions allow users to perform asset-related operations directly from the Asset Master.
+
+🛠️ Technical Implementation
+
+The solution is developed using:
+
+💼 Microsoft Dynamics 365 Business Central
+
+💻 AL Language
+
+🧑‍💻 Visual Studio Code
+
+🗃️ Custom Business Central Tables
+
+📄 Custom List & Card Pages
+
+⚡ Page Actions
+
+🔢 Enums
+
+⚙️ Codeunits
+
+🔔 Event Subscribers
+
+📊 Reports
+
+🎨 Report Layouts
+
+🔗 Table Relations
+
+📁 Project Structure
+
+AssetManagement/
+│
+├── 📂 Src/
+│   │
+│   ├── 📂 Tables/
+│   │   ├── Asset Master
+│   │   ├── Asset Assignment
+│   │   ├── Asset History
+│   │   ├── Asset Maintenance
+│   │   ├── Asset Replacement
+│   │   └── Asset Return
+│   │
+│   ├── 📂 Pages/
+│   │   ├── Asset Master List
+│   │   ├── Asset Master Card
+│   │   └── Asset Management Pages
+│   │
+│   ├── 📂 Codeunits/
+│   │   └── Asset Management Logic
+│   │
+│   ├── 📂 Enums/
+│   │   ├── Asset Activity
+│   │   ├── Asset Condition
+│   │   ├── Maintenance Status
+│   │   ├── Replacement Status
+│   │   └── Asset Status
+│   │
+│   └── 📂 Reports/
+│       ├── Employee Asset Report
+│       └── Asset Management Reports
+│
+├── 📄 app.json
+│
+└── 📂 .vscode/
+    └── launch.json
+
+🔄 Main Business Process
+
+📦 Asset Registration
+        ↓
+📋 Asset Master
+        ↓
+👤 Asset Assignment
+        ↓
+📊 Asset Status Tracking
+        ↓
+🔧 Maintenance / ↩️ Return
+        ↓
+♻️ Replacement (if required)
+        ↓
+🕒 Asset History
+        ↓
+📑 Asset Reports
+
+💡 Business Benefits
+
+🎯 Centralized Asset Tracking
+
+All important asset information is maintained in one centralized Business Central solution.
+
+👤 Better Accountability
+
+Employee-wise asset assignment provides clear ownership and responsibility.
+
+📈 Improved Asset Utilization
+
+Users can easily identify available, assigned, maintained, returned, and replaced assets.
+
+🔧 Better Maintenance Visibility
+
+Maintenance activities can be tracked against individual assets.
+
+🔍 Complete Lifecycle Visibility
+
+The solution provides visibility from asset registration through assignment, maintenance, return, and replacement.
+
+⚡ Reduced Manual Work
+
+Centralized records and predefined actions reduce dependency on manual asset tracking.
+
+📊 Better Decision-Making
+
+Reports and centralized asset information provide management with better information for decision-making.
+
+🧠 Development Approach
+
+The solution follows a modular Business Central development approach.
+
+Business requirements were converted into:
+
+🗃️ Custom Tables
+
+🔗 Table Relations
+
+📄 List & Card Pages
+
+⚡ Page Actions
+
+🔢 Enums
+
+⚙️ Codeunits
+
+🔔 Event Subscribers
+
+📑 Reports
+
+🧩 Business Logic
+
+The solution is designed to be maintainable, scalable, and extendable for future business requirements.
+
+🚀 Future Enhancements
+
+Possible future enhancements include:
+
+📱 Mobile Asset Management
+
+📷 Barcode / QR Code Scanning
+
+💰 Asset Depreciation Integration
+
+📧 Automated Warranty Expiry Notifications
+
+🔔 Automated Maintenance Reminders
+
+📊 Power BI Asset Dashboard
+
+✅ Asset Approval Workflows
+
+📎 Document Attachments
+
+🛒 Purchase Integration
+
+📝 Advanced Audit Trail
+
+📧 Automated Email Notifications
+
+👥 Employee Self-Service Asset Portal
+
+☁️ Deployment
+
+The extension can be developed and tested in a Microsoft Dynamics 365 Business Central Sandbox using Visual Studio Code and the AL extension.
+
+Typical deployment process:
+
+💻 AL Development
+        ↓
+🔍 Compile & Validate
+        ↓
+☁️ Business Central Sandbox
+        ↓
+🧪 Unit Testing
+        ↓
+👥 User Acceptance Testing
+        ↓
+🚀 Production Deployment
+
+🧰 Technologies Used
+
+Technology
+
+Purpose
+
+💼 Microsoft Dynamics 365 Business Central
+
+ERP Platform
+
+💻 AL Language
+
+Custom Development
+
+🧑‍💻 Visual Studio Code
+
+Development Environment
+
+🗃️ Business Central Tables
+
+Data Management
+
+📄 Business Central Pages
+
+User Interface
+
+⚙️ Codeunits
+
+Business Logic
+
+🔢 Enums
+
+Status & Activity Management
+
+📑 Reports
+
+Asset Reporting
+
+☁️ Business Central Sandbox
+
+Development & Testing
+
+📌 Project Outcome
+
+The Asset Management System provides a centralized and structured approach to managing organizational assets within Microsoft Dynamics 365 Business Central.
+
+It improves:
+
+🔍 Asset Visibility
+👤 Accountability
+📈 Asset Utilization
+🔧 Maintenance Management
+🔄 Lifecycle Tracking
+📊 Reporting & Decision-Making
+
+The solution also provides a strong foundation for future integration with Power BI, Power Automate, mobile applications, barcode/QR scanning, and other Business Central modules.
+
+👨‍💻 Project Focus
+
+Microsoft Dynamics 365 Business Central | AL Development | Asset Lifecycle Management | ERP Customization
+
+🏷️ Keywords
+
+Dynamics 365 Business Central
+Asset Management
+AL Development
+Microsoft Dynamics 365
+Business Central Extension
+ERP
+Asset Lifecycle Management
+Visual Studio Code
+Business Central Developer
