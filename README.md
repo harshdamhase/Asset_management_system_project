@@ -59,6 +59,7 @@ It stores important information such as:
 
 ---
 
+
 ## 2️⃣ Asset Registration
 
 The system allows users to register assets in Business Central.
@@ -74,6 +75,7 @@ The system allows users to register assets in Business Central.
 
 ---
 
+
 3️⃣ 👤 Asset Assignment
 
 Assets can be assigned to employees directly from the Asset Management solution.
@@ -86,6 +88,8 @@ Asset ID
 Assignment Date
 Asset Status
 Assignment History
+
+
 4️⃣ 🔄 Asset Return & Reassignment
 
 When an employee returns an asset, the system records the return and updates the asset status.
@@ -113,9 +117,9 @@ Example statuses include:
 🔴 Replaced
 ⚪ Returned
 
+---
 
-
-6️⃣ 🔧 Asset Maintenance Management
+6️⃣ 🔧 ## Asset Maintenance Management
 
 Maintenance activities can be recorded against individual assets.
 
@@ -131,7 +135,7 @@ Maintenance information can include:
 
 
 
-7️⃣ ♻️ Asset Replacement
+7️⃣ ♻️ ## Asset Replacement
 
 The system supports replacement of assets when an existing asset needs to be replaced.
 
