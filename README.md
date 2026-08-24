@@ -12,12 +12,12 @@ The solution is designed to manage the complete asset lifecycle — from **regis
 
 The main objective is to provide a centralized and structured solution for better:
 
-- 🔍 Asset Visibility
-- 👤 Accountability
-- 📈 Asset Utilization
-- 🔧 Maintenance Management
-- 🔄 Lifecycle Tracking
-- 📊 Reporting
+-  Asset Visibility
+-  Accountability
+-  Asset Utilization
+-  Maintenance Management
+-  Lifecycle Tracking
+-  Reporting
 
 ---
 
@@ -25,17 +25,17 @@ The main objective is to provide a centralized and structured solution for bette
 
 The main objectives of the Asset Management System are:
 
-- 📋 Maintain a centralized Asset Master
-- 👤 Track assets assigned to employees
-- 🔄 Manage asset returns and reassignment
-- 📊 Track current asset status
-- 🔧 Manage asset maintenance activities
-- ♻️ Manage asset replacement
-- 🕒 Maintain asset activity and history
-- 📑 Generate asset management reports
-- 🔍 Improve asset visibility and traceability
-- ⚡ Reduce manual asset tracking
-- 📈 Support better management decisions
+-  Maintain a centralized Asset Master
+-  Track assets assigned to employees
+-  Manage asset returns and reassignment
+-  Track current asset status
+-  Manage asset maintenance activities
+-  Manage asset replacement
+-  Maintain asset activity and history
+-  Generate asset management reports
+-  Improve asset visibility and traceability
+-  Reduce manual asset tracking
+-  Support better management decisions
 
 ---
 
@@ -47,17 +47,17 @@ The **Asset Master** acts as the central record for each organizational asset.
 
 It stores important information such as:
 
-- 🆔 Asset ID
-- 📦 Item No.
-- 🏷️ Asset Type
-- 📝 Description
-- 🔢 Serial No.
-- 📅 Purchase Date
-- 💰 Purchase Cost
-- 🛡️ Warranty Expiry Date
-- 📌 Asset Status
-- 👤 Employee No.
-- 👤 Employee Name
+-  Asset ID
+-  Item No.
+-  Asset Type
+-  Description
+-  Serial No.
+-  Purchase Date
+-  Purchase Cost
+-  Warranty Expiry Date
+-  Asset Status
+-  Employee No.
+-  Employee Name
 
 The Asset Master provides a single view of the asset and its current information.
 
@@ -72,13 +72,13 @@ During registration, the asset can be linked with relevant item information and 
 ### Process
 
 ```text
-📦 Asset Information
+ Asset Information
         ↓
-📝 Asset Registration
+ Asset Registration
         ↓
-🆔 Asset ID Generated
+ Asset ID Generated
         ↓
-📋 Asset Master Created
+ Asset Master Created
 ```
 
 ---
@@ -89,12 +89,12 @@ Assets can be assigned to employees directly from the Asset Management solution.
 
 The system maintains:
 
-- 👤 Employee No.
-- 👤 Employee Name
-- 🆔 Asset ID
-- 📅 Assignment Date
-- 📌 Asset Status
-- 🕒 Assignment History
+-  Employee No.
+-  Employee Name
+-  Asset ID
+-  Assignment Date
+-  Asset Status
+-  Assignment History
 
 This improves accountability and makes it easy to identify the employee responsible for an asset.
 
@@ -115,7 +115,7 @@ The asset can then become available for reassignment.
         ↓
 📌 Update Asset Status
         ↓
-🟢 Available
+ Available
         ↓
 👤 Reassign Asset
 ```
